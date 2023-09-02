@@ -11,15 +11,17 @@ Start by creating an S3 bucket and store the index.txt file (our sample website)
 ![sc1](./Screenshots/Pasted%20Graphic.png)  
 
 
-Next, create a target group which will contain the EC2 instances created by the Auto Scaling group. Create an ALB and attach the target group to the ALB.  
+Next, create a target group which will contain the EC2 instances created by the Auto Scaling group. 
 ![sc2](./Screenshots/Pasted%20Graphic%201.png)  
+
+Create an ALB and attach the target group to the ALB.    
 
 ![sc3](./Screenshots/Pasted%20Graphic%202.png)  
 
 
 Then create a launch template which defines the instance type, availaiblity zone of the instance and other instance details. In the user data section, add configuration to pick up the index.txt file from the S3 bucket.   
   ![sc4](./Screenshots/Pasted%20Graphic%203.png)   
-  
+
 
 Finally, create an auto scaling group where you define the group size - minimum, maximum and desired capacity. Attach the load balancer and define a scaling policy.   
  
