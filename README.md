@@ -7,6 +7,10 @@ TThis repository contains code and documentation that demonstrates how an EC2 au
 
 **Setting up the Design:**
 
+![alb](./Screenshots/alb.png)  
+
+
+
 Start by creating an S3 bucket and store the index.txt file (our sample website) there. Make the S3 bucket public and add a bucket policy to allow access from your account's resources.  
 ![sc1](./Screenshots/Pasted%20Graphic.png)  
 
