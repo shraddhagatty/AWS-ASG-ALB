@@ -7,7 +7,7 @@ TThis repository contains code and documentation that demonstrates how an EC2 au
 
 **Setting up the Design:**
 
-![alb](./Screenshots/alb.png)  
+![alb](./Screenshots/Screenshot%202023-09-03%20at%208.09.46%20PM.png)  
 
 
 
